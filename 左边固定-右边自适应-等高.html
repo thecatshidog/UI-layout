@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- 这里的高度自适应，高度是可以不写的，以实现高度自适应 -->
+	<!-- 这个布局是为了处理后台那种两栏等高布局的 -->
+	<style>
+		*{margin: 0;padding: 0;}
+			 	#wraper {
+			 		overflow: hidden;
+			 	}
+
+			 	.left {
+			 		background: #ccc;
+			 		float: left;
+			 		width: 200px;
+			 		margin-bottom: -99999px;
+			 		padding-bottom: 99999px;
+
+			 	}
+
+			 	.content {
+			 		background: #eee;
+			 		margin-left: 200px;
+			 		margin-bottom: -99999px;
+			 		padding-bottom: 99999px;
+			 	}
+			 	.left,
+			 	.content {
+			 		min-height: 200px;
+			 		height: auto !important;
+			 		height: 200px; 
+			 	}
+	</style>
+</head>
+<body>
+	<div id="wraper">
+		<div class="left">
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+			<p>hello</p>
+		</div>
+		<div class="content">
+			<p>world</p>
+			<p>world</p>
+			<p>world</p>
+			<p>world</p>
+			<p>world</p>
+			<p>world</p>
+			<p>world</p>
+			<p>world</p>
+			<p>world</p>
+		</div>
+	</div>
+</body>
+</html>
