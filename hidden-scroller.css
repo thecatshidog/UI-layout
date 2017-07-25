@@ -1,0 +1,5 @@
+.element::-webkit-scrollbar {display:none}
+.element {
+  overflow-y: auto;
+}
+
